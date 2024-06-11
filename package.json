@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^14.2.3",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.5",
     "mini-svg-data-uri": "^1.4.4",
