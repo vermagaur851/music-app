@@ -5,7 +5,6 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import "./globals.css";
 import UpComingWebinars from "@/components/UpComingWebinars";
 import Instructor from "@/components/Instructor";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (

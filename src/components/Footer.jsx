@@ -17,7 +17,7 @@ function Foter() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -25,7 +25,7 @@ function Foter() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -33,7 +33,7 @@ function Foter() {
             </li>
             <li>
               <a
-                href="#"
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
@@ -41,7 +41,7 @@ function Foter() {
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
