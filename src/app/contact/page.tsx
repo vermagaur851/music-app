@@ -14,12 +14,12 @@ function Page() {
     try {
       const payload = { email, message };
       const data = await axios.post("/api/send", payload);
-      console.log(data);
       toast("Message sent successfully !!!");
       setEmail(''); setMessage('');
     } catch (error) {
       toast("Error sending message...");
       console.log(error);
+      
     }
   };
 
@@ -36,6 +36,7 @@ function Page() {
             Email
           </label>
           <input
+          required
             readOnly={wait}
             onChange={(e) => {
               setEmail(e.target.value);
@@ -55,6 +56,7 @@ function Page() {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
+            required
             name="message"
             id="message"
             placeholder="Message"
