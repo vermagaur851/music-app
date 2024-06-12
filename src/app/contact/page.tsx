@@ -14,6 +14,7 @@ function Page() {
     try {
       const payload = { email, message };
       const data = await axios.post("/api/send", payload);
+      console.log(data);
       toast("Message sent successfully !!!");
       setEmail(''); setMessage('');
     } catch (error) {
