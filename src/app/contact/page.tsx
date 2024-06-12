@@ -4,7 +4,7 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 
-function page() {
+function Page() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [wait, setWait] = useState(false);
@@ -70,4 +70,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
